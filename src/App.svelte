@@ -1,5 +1,9 @@
+<svelte:head>
+<title>{title}</title>
+</svelte:head>
+
 <script>
-	export let name;
+	export let title = "klosie's web!";
 	import { reveal } from 'svelte-reveal';
 	import { fly } from 'svelte/transition';
 	let visible = {
@@ -22,23 +26,10 @@
 	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://toss.me/klosie">Toss</a>
 </div>
 <style>
-
-	#gistgithub {
-		margin-top: 20px;
-		margin-left: 17.4%;
-		font-size: 1.5em;
-		color: #6F38C5;
-	}
-
 	#details {
 		margin-left: 17.4%;
 		font-size: 1.5em;
 		color: #6F38C5;
-	}
-
-	.profile {
-		margin-left: 17.4%;
-		font-size: 1.5em;
 	}
 
 	.donate {
