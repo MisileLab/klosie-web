@@ -17,7 +17,7 @@
 <details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2022"]}>
 	<summary>2022</summary>
 	{#if visible["projects2022"]}
-		<a transition:fly="{{ x: flyx, duration: 1000 }}">pull request check</a>
+		<plain transition:fly="{{ x: flyx, duration: 1000 }}">pull request check</plain>
 	{/if}
 </details>
 <donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
@@ -62,6 +62,13 @@
 		display: block;
 		margin: auto;
 		margin-top: 10px;
+	}
+	
+	plain {
+		display: block;
+		margin-left: 17.4%;
+		font-size: 1.5em;
+		color: #6F38C5;
 	}
 
 	a {
