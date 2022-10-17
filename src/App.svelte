@@ -13,16 +13,16 @@
 </script>
 
 <h1 use:reveal={{ transition: "slide", reset: true, duration: 500 }}>klosie, misile's cat!</h1>
-<projectstitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>projects</projectstitle>
-<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 2500}} bind:open={visible["projects2022"]}>
+<projectstitle use:reveal={{ transition: "slide", reset: true, duration: 1000}}>projects</projectstitle>
+<details id="details" use:reveal={{ transition: "slide", reset: true, duration: 1500}} bind:open={visible["projects2022"]}>
 	<summary>2022</summary>
 	{#if visible["projects2022"]}
-		<plain transition:fly="{{ x: flyx, duration: 1000 }}">pull request check</plain>
+		<plain transition:fly="{{ x: flyx, duration: 500 }}">pull request check</plain>
 	{/if}
 </details>
-<donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1700}}>Donate me</donatestitle>
+<donatestitle use:reveal={{ transition: "slide", reset: true, duration: 1000}}>Donate me</donatestitle>
 <div class="donate">
-	<a use:reveal={{ transition: "slide", reset: true, duration: 2500}} href="https://toss.me/klosie">Toss</a>
+	<a use:reveal={{ transition: "slide", reset: true, duration: 1500}} href="https://toss.me/klosie">Toss</a>
 </div>
 <style>
 	#details {
