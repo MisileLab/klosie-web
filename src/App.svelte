@@ -7,8 +7,7 @@
 	import { reveal } from 'svelte-reveal';
 	import { fly } from 'svelte/transition';
 	let visible = {
-		projects2022: false,
-		orgs2022: false
+		projects2022: false
 	};
 	let flyx = -40;
 </script>
