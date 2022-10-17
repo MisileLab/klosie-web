@@ -66,8 +66,6 @@
 	
 	plain {
 		display: block;
-		margin-left: 17.4%;
-		font-size: 1.5em;
 		color: #6F38C5;
 	}
 
