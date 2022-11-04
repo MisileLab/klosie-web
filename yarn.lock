@@ -612,10 +612,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-reveal@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/svelte-reveal/-/svelte-reveal-0.6.0.tgz#8cb420b5c60abf6116bca94e0f79360d6cd26cd2"
-  integrity sha512-EJFijX7KVl9a8vgoJ7dw7qvLO9Rbuagy3zdAxheMlH26Nig9xpPhF9NAvaz9BS1305ZH1aQ4gbeU/fyYYHUEDQ==
+svelte-reveal@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/svelte-reveal/-/svelte-reveal-0.7.0.tgz#74c17eccda313c849f8c7ad7ebb89b40be7288da"
+  integrity sha512-cmdYWpULQXtbEuzxxObR2IRbyKef51KlqidkLswj1F3FzeoYr9WHvL2setvvkH3MpD0BfFngvWWAXNPj/PDXXA==
 
 svelte@3.52.0:
   version "3.52.0"
